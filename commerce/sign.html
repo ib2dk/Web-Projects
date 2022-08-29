@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/62194c88e3.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="sty.css">
+    <title>SIGN IN</title>
+</head>
+
+<body style="overflow-x:hidden;" class="sign-page">
+    <div class="sign__top sign__cont">
+        <fa><a href="index.html" target="_self" rel="noopener noreferrer"><i class="fa-solid fa-arrow-left"></i></a>
+        </fa> <span>Ola's
+            coulture</span>
+    </div>
+    <section class="sign__form">
+        <form>
+            <div class="cont sign__form-sign sign__cont">
+                <div id="sign__login">LOGIN</div>
+                <div id="sign__create">CREATE AN ACCOUNT</div>
+            </div>
+            <div class="sign__form-reg">
+                <input type="text" placeholder="First Name">
+                <input type="text" placeholder="Last Name">
+            </div>
+            <div> <input type="email" placeholder="E-mail"> <br>
+                <div class="sign__form-form-flex">
+                    <input id="password" type="password" placeholder="password">
+                    <div>
+                        <fa><i id="show_hide" class="fa-solid fa-eye"></i></fa>
+                    </div>
+                </div>
+                <input id="confirmPass" class="sign__form-reg" type="password" placeholder="Confirm Password">
+                <div class=" sign__form-form-rem">
+                    <div class="cont sign__form-form-label ">
+                        <input type="checkbox" name="remember-me">
+                        <label for="remember-me">Remember me </label>
+                    </div>
+                    <div><a href="#"> Forgot your password?</a></div>
+                </div>
+            </div>
+            <div class="sign__form-reg cont sign__form-reg2">
+                <div class="prefix">
+                    <label>prefix +1</label>
+                    <input type="phone" placeholder="Phone Number(optional)">
+                </div>
+                <div class="prefix"> <input type="checkbox">
+                    <label for="">I accept the <span>Terms & Conditions</span></label>
+                </div>
+                <div class="prefix"><input type="checkbox">
+                    <label for="">I want to receive Newsletter</label>
+                </div>
+            </div>
+            <div class="cont btn"> <button id="sign__first-btn"> <a href="index.html" target="_self"
+                        rel="noopener noreferrer">LOGIN</a></button></div>
+            <hr>
+            <div class="cont btn"> <button id="facebook-con"> <a href="http://facebook.com" target="_blank"
+                        rel="noopener noreferrer">CONNECT WITH
+                        FACEBOOK</a></button></div>
+        </form>
+
+        <div class="sign__bottom pam">
+            <h4 id="sign__bottom">New to <span> Ola's coulture?</span></h4>
+            <h1 style="color: blue;" id="sign__bottom-create" onclick="log_sign()">CREATE AN ACCOUNT</h1>
+        </div>
+    </section>
+
+    <script src="js.js"></script>
+
+</body>
+
+</html>
