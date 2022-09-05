@@ -13,6 +13,7 @@ let login = true;
 let show_hide = document.getElementById("show_hide");
 let password = document.getElementById("password");
 let confirmpass = document.getElementById("confirmPass");
+let loginBtn = document.querySelector("#sign__first-btn a");
 
 if (small && main) {
     small[0].onclick = () => {
@@ -62,6 +63,7 @@ function Login() {
     bottom_create.textContent = "New to Ola's coulture";
     create_btn.innerHTML = "CREATE AN ACCOUNT";
     confirmpass.style.display = "none";
+     loginBtn.textContent = "LOGIN";
 }
 function createAccount() {
     login = false;
@@ -72,6 +74,7 @@ function createAccount() {
     login_switch.style.color = "grey";
     bottom_create.textContent = "Already have an account?";
     create_btn.textContent = "LOGIN";
+    loginBtn.textContent = "CREATE ACCOUNT";
 }
 
 function log_sign() {
