@@ -317,7 +317,7 @@ header .nav li a.active::after {
 }
 
 .middle .mid h2 {
-    margin-bottom: 10px;
+    margin: 10px;
 }
 
 .middle .lower h2 {
@@ -449,8 +449,8 @@ header .nav li a.active::after {
 footer {
     flex-direction: column;
     justify-content: space-between;
-    height: 40vh;
     width: 100%;
+    padding:0 10px;
     display: flex;
     text-align: center;
 }
@@ -512,6 +512,8 @@ footer .par {
 
 .single {
     display: flex;
+    background-color: whitesmoke;
+    margin-top: 50px;
 }
 
 .single .simg {
@@ -765,6 +767,9 @@ footer .par {
 
 
 /* ////-----CART-SESSION---/// */
+.CART .sign__top{
+    padding: 10px 0 0 10px;
+}
 .cart__b {
     width: 100%;
     background-color: rgb(248, 218, 181);
@@ -1192,7 +1197,9 @@ footer .par {
         font-size: 2rem;
         line-height: 1.7;
     }
-
+    .single{
+        margin-top: 40px;
+    }
     .single .simg {
         width: 50%;
         margin-right: 50px;
