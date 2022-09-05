@@ -628,6 +628,7 @@ footer .par {
     font-style: italic;
     font-weight: 800;
     color: rgb(242, 246, 12);
+    cursor:pointer;
 }
 
 #sign__bottom span {
